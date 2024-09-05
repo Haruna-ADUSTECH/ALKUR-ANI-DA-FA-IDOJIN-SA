@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fa'idojin da Darajojin Alkur'ani</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -15,6 +16,7 @@
                 <li><a href="#faidoji">Fa'idoji</a></li>
                 <li><a href="#darajoji">Darajoji</a></li>
                 <li><a href="#karin-bayani">Karin Bayani</a></li>
+                <li><a href="#tuntube-mu">Tuntuɓe Mu</a></li>
             </ul>
         </div>
     </nav>
@@ -27,7 +29,7 @@
         </header>
 
         <!-- Section: Fa'idoji -->
-        <section id="faidoji" class="faidoji">
+        <section id="faidoji" class="section-content">
             <h2>Fa'idoji na Alkur'ani</h2>
             <ul>
                 <li>Alkur'ani yana ba da shiriya ga dukkan rayuwa (<a href="https://islamqa.info/ha/answers/20268" target="_blank">Kara karantawa</a>)</li>
@@ -38,7 +40,7 @@
         </section>
 
         <!-- Section: Darajoji -->
-        <section id="darajoji" class="darajoji">
+        <section id="darajoji" class="section-content">
             <h2>Darajojin Alkur'ani</h2>
             <ul>
                 <li>Alkur'ani yana ba da mafita ga dukkan matsaloli (<a href="https://islamhouse.com/ha/books/2807879/" target="_blank">Kara karantawa</a>)</li>
@@ -48,8 +50,8 @@
             </ul>
         </section>
 
-        <!-- Additional Information Section -->
-        <section id="karin-bayani" class="karin-bayani">
+        <!-- Section: Additional Information -->
+        <section id="karin-bayani" class="section-content">
             <h2>Karin Bayani Akan Alkur'ani</h2>
             <p>Domin samun karin bayani akan fa'idojin da darajoji na Alkur'ani, za ku iya ziyartar wasu daga cikin manyan shafukan yanar gizo masu inganci dake taimakawa wajen koyarwa da fahimtar Alkur'ani:</p>
             <ul>
@@ -57,6 +59,23 @@
                 <li><a href="https://dorar.net/" target="_blank">Dorar.net</a></li>
                 <li><a href="https://islamqa.info/" target="_blank">IslamQA.info</a></li>
             </ul>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="tuntube-mu" class="section-content">
+            <h2>Tuntuɓe Mu</h2>
+            <form>
+                <label for="name">Suna:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Imel:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Saƙo:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Aika</button>
+            </form>
         </section>
     </div>
 
