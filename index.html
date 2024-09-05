@@ -1,51 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ha">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MUSAN FA'IDOJIN DA DARAJOJIN ALKUR'ANI</title>
+    <title>Fa'idojin da Darajojin Alkur'ani</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Main Container -->
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Alkur'ani</a>
+            <ul class="nav-links">
+                <li><a href="#faidoji">Fa'idoji</a></li>
+                <li><a href="#darajoji">Darajoji</a></li>
+                <li><a href="#karin-bayani">Karin Bayani</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
     <div class="container">
-        <!-- Animated Heading -->
-        <h1>MUSAN FA'IDOJIN DA DARAJOJIN ALKUR'ANI</h1>
+        <header class="main-header">
+            <h1>Fa'idojin da Darajojin Alkur'ani</h1>
+            <p class="intro">Alkur'ani mai girma yana ɗauke da fa'idodi da darajoji masu yawa da suke taimakawa a rayuwa ta duniya da lahira.</p>
+        </header>
 
-        <!-- Category Sections -->
-        <section>
-            <h2>1. List of 114 Surahs and Their Details</h2>
-            <ul id="surahs-list"></ul>
+        <!-- Section: Fa'idoji -->
+        <section id="faidoji" class="faidoji">
+            <h2>Fa'idoji na Alkur'ani</h2>
+            <ul>
+                <li>Alkur'ani yana ba da shiriya ga dukkan rayuwa (<a href="https://islamqa.info/ha/answers/20268" target="_blank">Kara karantawa</a>)</li>
+                <li>Yana kara imani da sabawa Allah (<a href="https://www.alukah.net/ha/quran/0/7207" target="_blank">Kara karantawa</a>)</li>
+                <li>Alkur'ani magani ne ga zuciyar mai imani (<a href="https://dorar.net/quran" target="_blank">Kara karantawa</a>)</li>
+                <li>Yana kare mutum daga sharrin shedan (<a href="https://quranicpath.com/" target="_blank">Kara karantawa</a>)</li>
+            </ul>
         </section>
 
-        <section>
-            <h2>2. 50 Miracles of the Qur'an</h2>
-            <ul id="miracles-list"></ul>
+        <!-- Section: Darajoji -->
+        <section id="darajoji" class="darajoji">
+            <h2>Darajojin Alkur'ani</h2>
+            <ul>
+                <li>Alkur'ani yana ba da mafita ga dukkan matsaloli (<a href="https://islamhouse.com/ha/books/2807879/" target="_blank">Kara karantawa</a>)</li>
+                <li>Yana nuna hanyoyin da za a tsira a lahira (<a href="https://binbaz.org.sa/ha/fatwas/24691" target="_blank">Kara karantawa</a>)</li>
+                <li>Karanta Alkur'ani yana daukaka darajar mai karatunsa (<a href="https://www.almunajjid.com/" target="_blank">Kara karantawa</a>)</li>
+                <li>Alkur'ani yana haskaka zuciyar mai karatu (<a href="https://sunnah.com" target="_blank">Kara karantawa</a>)</li>
+            </ul>
         </section>
 
-        <section>
-            <h2>3. 50 Blessings of the Qur'an</h2>
-            <ul id="blessings-list"></ul>
-        </section>
-
-        <section>
-            <h2>4. 50 Shifa Verses of the Qur'an</h2>
-            <ul id="shifa-list"></ul>
-        </section>
-
-        <section>
-            <h2>5. Other Important Parts of the Qur'an</h2>
-            <ul id="important-parts-list"></ul>
+        <!-- Additional Information Section -->
+        <section id="karin-bayani" class="karin-bayani">
+            <h2>Karin Bayani Akan Alkur'ani</h2>
+            <p>Domin samun karin bayani akan fa'idojin da darajoji na Alkur'ani, za ku iya ziyartar wasu daga cikin manyan shafukan yanar gizo masu inganci dake taimakawa wajen koyarwa da fahimtar Alkur'ani:</p>
+            <ul>
+                <li><a href="https://www.alukah.net/" target="_blank">Alukah.net</a></li>
+                <li><a href="https://dorar.net/" target="_blank">Dorar.net</a></li>
+                <li><a href="https://islamqa.info/" target="_blank">IslamQA.info</a></li>
+            </ul>
         </section>
     </div>
 
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 MUSAN FA'IDOJIN DA DARAJOJIN ALKUR'ANI</p>
+    <footer class="footer">
+        <p>© 2024 Fa'idojin da Darajojin Alkur'ani. Duk haƙƙin mallaka yana nan. </p>
     </footer>
 
-    <!-- JavaScript File -->
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
